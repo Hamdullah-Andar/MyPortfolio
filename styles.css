@@ -1,3 +1,80 @@
-body {
-    background-color: blueviolet;
+.header {
+  /* background-image: url('images/header-background-mobile.png'); */
+  height: 50px;
+  width: 290px;
 }
+
+main {
+
+}
+
+.logo {
+  /* align-items: start; */
+  /* justify-content: end; */
+  /* justify-content: baseline; */
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+/* <p>style="background-image: url=("images/header-background-mobile");"</p> */
+         
+body {
+  background-color: lightgray;
+  /* height: 718px; */
+  /* width: 375px; */
+  /* align: center; */
+}
+
+.container {
+  background-image: url('images/header-background-mobile.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+  display: flex;
+  /* height: 718px; 
+  width: 375px; */
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* align-content: center; */
+}
+
+.heading {
+  margin-bottom: 0;
+  margin-top: 146px;
+  /* padding-left: 20px; */
+  text-align: left;
+  height: 100px;
+  width: 330px;
+  text-align: start;
+  /* justify-content: center; */
+}
+
+.paragraph {
+  margin-top: 0;
+  height: 100px;
+  width: 330px;
+  text-align: start;
+  /* justify-content: center; */
+}
+
+.connect {
+  margin-top: 2px;
+  height: 20px;
+  width: 290px;
+}
+
+.socials {
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* align-content: flex-end; */
+  margin-left: 2px;
+  height: 20px;
+  width: 330px;
+
+}
+/* .border {
+    height: 180px; 
+    width: 375px;
+} */

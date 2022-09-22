@@ -69,7 +69,6 @@ body {
   text-align: left;
   height: 100px;
   width: 330px;
-  text-align: start;
 }
 
 .paragraph {
@@ -80,8 +79,7 @@ body {
 }
 
 .connect {
-  color: #7F8CFF;  
-  font-family: 'Poppins';
+  color: #7f8cff;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -103,9 +101,6 @@ body {
   column-gap: 80px;
 }
 
-.grid-item {
-  /* background-color: blueviolet; */
-}
 
 .item1 {
   padding: 10px;
@@ -118,7 +113,7 @@ body {
   list-style-type: none;
   gap: 10px;
   margin: 0 20px 0 0;
-} 
+}
 
 ul {
   padding: 0;

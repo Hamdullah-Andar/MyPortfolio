@@ -1,7 +1,7 @@
 ### Portfolio Mobile Version
 
-    This project is the main page of portfolio project
-
+    This is the complete potfolio project.
+    
 ### Built With
 
     HTML

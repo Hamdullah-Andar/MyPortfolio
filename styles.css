@@ -79,3 +79,101 @@ body {
 ul {
   padding: 0;
 }
+
+.tonic {
+  background-color: white;
+  margin-top: 100;  
+  height: 625px;
+  width: 375px;
+  background-repeat: no-repeat;
+  /* margin: 0 10px 10px 10px; */
+  padding-bottom: 10px;
+}
+
+.tonic-container {
+  background-color: whitesmoke;
+  margin: 25px 25px 0 18px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.tonic-title {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.tonic-button {
+  display: flex;
+  gap: 20px;
+}
+
+.language-button {
+  background-color: gainsboro;
+  border-radius: 10px;
+  color: blue;
+  padding: 5px 10px;
+}
+
+.project-button {
+  background-color: white;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  color: blue;
+  font-size: 20px;
+}
+
+.about-heading {
+  text-align: left;
+  height: 100px;
+  width: 280px;
+  font-size: 35px;
+  margin: 25px 25px 0 0;
+  padding: 20px;
+}
+
+.about {
+  background-color: white;
+  margin-top: 100;  
+  height: 1125px;
+  width: 375px;
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+}
+
+.about-container {
+  background-color: whitesmoke;
+  margin: 25px 25px 0 18px;
+  padding: 20px;
+  border-radius: 10px;
+  height: 1060px;
+}
+
+.about-button {
+  background-color: white;
+  margin: 70px 0 0 10px;
+  padding: 15px;
+  border-radius: 10px;
+  color: blue;
+  font-size: 20px;
+}
+
+.languages {
+  margin: 20px 10px 0 5px;
+  padding: 20px 0 0 0;
+  width: 335px;
+}
+
+.programming-languages {
+  background-color: lightgrey;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin: 20px 0 0 15px;
+}
+
+.language1 {
+  padding: 10px 30px 30px 30px;
+  margin-top: 0;
+}

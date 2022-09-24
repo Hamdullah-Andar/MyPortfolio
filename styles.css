@@ -78,21 +78,54 @@ body {
 
 ul {
   padding: 0;
+  list-style-type: none;
+}
+
+.section1 {
+  background-image: url('images/Snapshoot-Portfolio.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 240px;
+  width: 290px;
+}
+
+.section2 {
+  background-image: url('images/SnapshootPortfolio1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 240px;
+  width: 290px;
+}
+
+.section3 {
+  background-image: url('images/SnapshootPortfolio2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 240px;
+  width: 290px;
+}
+
+.section4 {
+  background-image: url('images/SnapshootPortfolio3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 240px;
+  width: 290px;
 }
 
 .tonic {
   background-color: white;
   margin-top: 100;
-  height: 625px;
+  height: 650px;
   width: 375px;
   background-repeat: no-repeat;
   padding-bottom: 10px;
 }
 
 .tonic-container {
-  background-color: whitesmoke;
-  margin: 25px 25px 0 18px;
-  padding: 20px;
+  background-color: gainsboro;
+  margin: 50px 25px 0 18px;
+  padding: 20px 20px 20px 20px;
   border-radius: 10px;
 }
 
@@ -135,7 +168,7 @@ ul {
 .about {
   background-color: white;
   margin-top: 100;
-  height: 1125px;
+  height: 1150px;
   width: 375px;
   background-repeat: no-repeat;
   padding-bottom: 10px;
@@ -146,7 +179,7 @@ ul {
   margin: 25px 25px 0 18px;
   padding: 20px;
   border-radius: 10px;
-  height: 1060px;
+  height: 1080px;
 }
 
 .about-button {
@@ -159,20 +192,40 @@ ul {
 }
 
 .languages {
-  margin: 20px 10px 0 5px;
-  padding: 20px 0 0 0;
-  width: 335px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px 0 0;
+  padding: 10px 0 0 0;
+  width: 250px;
+}
+
+li {
+  text-decoration: none;
 }
 
 .programming-languages {
   background-color: lightgrey;
   border-radius: 5px;
   display: grid;
-  grid-template-columns: 1fr 3fr;
-  margin: 20px 0 0 15px;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 30px 0 0 0;
+  padding: 5px 5px;
 }
 
 .language1 {
-  padding: 10px 30px 30px 30px;
-  margin-top: 0;
+  padding: 10px 30px 10px 30px;
+}
+
+.language-link {
+  padding-top: 15px;
+  margin-bottom: 0;
+}
+
+.language-icon {
+  padding-top: 0;
+}
+
+.line-width {
+  width: 90%;
 }

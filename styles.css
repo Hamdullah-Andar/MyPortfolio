@@ -146,24 +146,35 @@ ul {
 }
 
 .tonic-button {
-  display: flex;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 10px;
 }
 
-.language-button {
-  background-color: gainsboro;
-  border-radius: 10px;
-  color: blue;
-  padding: 5px 10px;
+.html-button {
+  border-radius: 8px;
+  padding: 4px 12px 4px 12px;
+  fill: #ebebff;
+}
+
+.css-button {
+  border-radius: 8px;
+  padding: 4px 12px 4px 12px;
+  fill: #ebebff;
+}
+
+.javascript-button {
+  border-radius: 8px;
+  padding: 4px 12px 4px 12px;
+  fill: #ebebff;
 }
 
 .project-button {
+  width: 135px;
+  height: 60px;
   background-color: white;
-  margin-top: 20px;
-  padding: 15px;
-  border-radius: 10px;
-  color: blue;
-  font-size: 20px;
+  margin: 20px 0 20px 0;
+  border-radius: 16px;
 }
 
 .about-heading {

@@ -212,6 +212,21 @@ ul {
   font-size: 20px;
 }
 
+.about-button:hover {
+  color: white;
+  background-color: lightblue;
+}
+
+.about-button:active {
+  color: white;
+  background-color: blue;
+}
+
+.about-button:visited {
+  color: white;
+  background-color: green;
+}
+
 .languages {
   display: flex;
   justify-content: space-between;

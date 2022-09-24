@@ -20,7 +20,7 @@ body {
 
 .sub-container {
   background-image: url('images/header-shapes mobile@2x.png'), url('images/header-background-mobile.png');
-  height: 725px;
+  height: 718px;
   width: 375px;
   background-repeat: no-repeat;
   margin: 0 10px 10px 10px;
@@ -32,6 +32,17 @@ body {
   height: 15px;
   width: 375px;
   margin-top: 120px;
+}
+
+.logo {
+  margin-right: 180px;
+  text-decoration: none;
+  height: 76px;
+  width: 20px;
+  margin-top: 10px;
+  margin-left: 12px;
+  font-family: 'Poppins';
+  color: #6070ff;
 }
 
 .link {

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap");
 
 body {
-  background-color: gainsboro;
+  background-color: aqua;
   font-family: "Poppins", sans-serif;
 }
 
@@ -99,6 +99,22 @@ ul {
   width: 290px;
 }
 
+.skills {
+  display: flex;
+  padding: 4px 12px;
+  list-style-type: none;
+  border-radius: 8px;
+  color: #6070ff;
+  gap: 20px;
+}
+
+.html-link {
+  background-color: whitesmoke;
+  padding: 4px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
 .section2 {
   background-image: url('images/SnapshootPortfolio1.png');
   background-repeat: no-repeat;
@@ -124,7 +140,7 @@ ul {
 }
 
 .tonic {
-  background-color: white;
+  background-color: whitesmoke;
   margin-top: 100;
   height: 650px;
   width: 375px;
@@ -133,7 +149,7 @@ ul {
 }
 
 .tonic-container {
-  background-color: gainsboro;
+  background-color: white;
   margin: 50px 25px 0 18px;
   padding: 16px;
   border-radius: 16px;
@@ -170,11 +186,23 @@ ul {
 }
 
 .project-button {
-  width: 135px;
-  height: 60px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 50px;
+  width: 140px;
+  padding: 20px;
+  border-color: #396df2;
   background-color: white;
-  margin: 20px 0 20px 0;
-  border-radius: 16px;
+  border-width: 1px;
 }
 
 .about-heading {
@@ -187,7 +215,7 @@ ul {
 }
 
 .about {
-  background-color: white;
+  background-color: whitesmoke;
   margin-top: 100;
   height: 1150px;
   width: 375px;
@@ -196,7 +224,7 @@ ul {
 }
 
 .about-container {
-  background-color: whitesmoke;
+  background-color: white;
   margin: 25px 25px 0 18px;
   padding: 20px;
   border-radius: 10px;
@@ -204,12 +232,21 @@ ul {
 }
 
 .about-button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 80px;
+  border-radius: 7px;
+  height: 40px;
+  border-color: #396df2;
+  border-width: 1px;
   background-color: white;
-  margin: 70px 0 0 10px;
-  padding: 15px;
-  border-radius: 10px;
-  color: blue;
-  font-size: 20px;
 }
 
 .about-button:hover {
@@ -240,11 +277,10 @@ li {
 }
 
 .programming-languages {
-  background-color: lightgrey;
+  background-color: #f7f7f9;
   border-radius: 5px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  grid-template-columns: 1fr 2fr;
   margin: 30px 0 0 0;
   padding: 5px 5px;
 }
@@ -260,6 +296,7 @@ li {
 
 .language-icon {
   padding-top: 0;
+  margin-left: 10px;
 }
 
 .line-width {

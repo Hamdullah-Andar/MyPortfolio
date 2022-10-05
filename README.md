@@ -1,6 +1,6 @@
 ### Portfolio Mobile Version
 
-    This is the complete potfolio project.
+    This is the complete potfolio project with Contact form
     
 ### Built With
 

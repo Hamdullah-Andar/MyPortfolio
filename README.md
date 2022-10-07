@@ -1,4 +1,4 @@
-### Portfolio Mobile Version
+### Portfolio Desktop Version
 
     This is the complete potfolio project with Contact form
     

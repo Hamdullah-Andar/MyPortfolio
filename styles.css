@@ -696,4 +696,8 @@ textarea {
   .section4:hover {
     transform: scale(1.15);
   }
+
+  .logo:hover {
+    transform: rotate(45deg);
+  }
 }

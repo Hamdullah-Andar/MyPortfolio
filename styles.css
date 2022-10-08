@@ -53,6 +53,7 @@ main {
   padding: 24px;
   font-size: 40px;
   font-family: Poppins, sans-serif;
+  color: #091e42;
 }
 
 .paragraph {
@@ -60,6 +61,7 @@ main {
   height: 90px;
   width: 330px;
   padding: 24px 24px 0 24px;
+  color: #344563;
 }
 
 .socials {
@@ -153,10 +155,13 @@ ul {
 
 .html-link {
   color: #6070ff;
-  background-color: gainsboro;
-  padding: 3px 15px;
+  background-color: #ebebff;
   margin: 5px 10px 5px 0;
   border-radius: 10px;
+  font-weight: 500px;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 4px 12px;
 }
 
 .project-button {
@@ -177,6 +182,21 @@ ul {
   border-color: #396df2;
   background-color: white;
   border-width: 1px;
+}
+
+.project-button:hover {
+  color: white;
+  background-color: lightblue;
+}
+
+.project-button:active {
+  color: white;
+  background-color: blue;
+}
+
+.project-button:visited {
+  color: white;
+  background-color: green;
 }
 
 .tonic-title {
@@ -209,7 +229,7 @@ ul {
   fill: #ebebff;
 }
 
-.about-heading {
+.about-title {
   text-align: left;
   height: 100px;
   width: 50px;
@@ -405,9 +425,15 @@ textarea {
   display: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1258px) {
   body {
-    background-position: 100%;
+    margin: 0;
+  }
+
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .logo-image {
@@ -415,10 +441,8 @@ textarea {
   }
 
   .menu-bar {
-    text-decoration: none;
     display: flex;
     flex-direction: row-reverse;
-    margin: 0 150px 50px;
     gap: 20px;
   }
 
@@ -435,18 +459,31 @@ textarea {
     width: 100%;
     display: flex;
     justify-content: space-between;
-  }
-
-  header {
-    width: 100%;
+    padding: 25px 154px 0 155px;
   }
 
   .main-class {
     background-image: none;
     background-image: url('images/Header\ bg.svg'), url('images/header\ background\ shape-desktop.png');
-    background-position: 100%;
-    width: 100vw;
-    height: 900px;
+    width: 100%;
+    height: 906px;
+  }
+
+  .heading {
+    margin: 190px 260px 0 260px;
+    width: 330px;
+  }
+
+  .paragraph {
+    padding-top: 0;
+    width: 750px;
+    margin: 0 260px;
+  }
+
+  .socials {
+    margin: 0 260px;
+    padding-top: 10px;
+    margin-top: 0;
   }
 
   .hero {
@@ -454,20 +491,16 @@ textarea {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    margin: 160px 260px 360px 260px;
-    width: 100%;
   }
 
   .projects {
     width: 100%;
-    height: 80%;
   }
 
   .project-container {
-    width: 80%;
     height: 510px;
     display: flex;
-    margin: 125px;
+    margin: 142px;
     flex-direction: row;
     justify-content: space-between;
     gap: 50px;
@@ -490,14 +523,13 @@ textarea {
     margin: 125px;
     flex-direction: row-reverse;
     justify-content: space-between;
-    gap: 50px;
   }
 
   .project-image {
     background-image: none;
     display: flex;
-    width: 520px;
-    height: 400px;
+    width: 542px;
+    height: 472px;
     flex-direction: row-reverse;
     margin: 24px;
   }
@@ -507,65 +539,77 @@ textarea {
   }
 
   .section1 {
-    background-image: none;
     background-image: url("images/Snapshoot-Portfolio-Disk1.png");
-    width: 550px;
-    height: 470px;
+    width: 542px;
+    height: 472px;
   }
 
   .section2 {
-    background-image: none;
     background-image: url("images/Snapshoot-Portfolio-Disk2.png");
-    width: 550px;
-    height: 470px;
+    width: 542px;
+    height: 472px;
     display: flex;
     flex-direction: row-reverse;
   }
 
   .section3 {
-    background-image: none;
     background-image: url("images/Snapshoot-Portfolio-Disk3.png");
-    width: 550px;
-    height: 470px;
+    width: 542px;
+    height: 472px;
   }
 
   .section4 {
-    background-image: none;
     background-image: url("images/Snapshoot-Portfolio-Disk4.png");
-    width: 550px;
-    height: 470px;
+    width: 542px;
+    height: 472px;
+  }
+
+  .project-button:hover {
+    color: white;
+    background-color: lightblue;
+  }
+
+  .project-button:active {
+    color: white;
+    background-color: blue;
+  }
+
+  .project-button:visited {
+    color: white;
+    background-color: green;
   }
 
   .about {
-    width: 100vw;
+    width: 100%;
+    height: 750px;
     background-image: none;
   }
 
   .about-container {
     background-image: url('images/about-myself-background-shape-desktop.png');
     background-repeat: no-repeat;
-    background-position-x: center;
     width: 100%;
-    height: 70%;
+    padding: 0;
+    height: 710px;
     display: flex;
-    gap: 50px;
+    gap: 20px;
   }
 
   .about-headings {
-    width: 550px;
+    width: 450px;
     height: 470px;
-    margin: 125px 0 125px 125px;
+    margin: 120px 0 120px 120px;
   }
 
   .about-description {
-    width: 550px;
+    width: 650px;
     height: 470px;
-    margin: 180px 0 125px 0;
+    margin: 120px 100px 120px 0;
   }
 
   .languages {
     display: flex;
-    gap: 330px;
+    gap: 450px;
   }
 
   .programming-languages {
@@ -581,36 +625,57 @@ textarea {
 
   .about-framework {
     display: flex;
-    gap: 350px;
+    gap: 450px;
   }
 
   .about-skills {
     display: flex;
-    gap: 400px;
+    gap: 500px;
   }
 
   .arrow {
     margin-right: 10px;
   }
 
+  .about-button:hover {
+    color: white;
+    background-color: lightblue;
+  }
+
+  .about-button:active {
+    color: white;
+    background-color: blue;
+  }
+
+  .about-button:visited {
+    color: white;
+    background-color: green;
+  }
+
   .contact-section {
     width: 100%;
-    height: 68%;
+    height: 750px;
+    background-image: none;
     background-image: url('images/contact-form-background-shape-desktop.png');
+    background-position: center;
     background-position-x: center;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 0;
+  }
+
+  .contact {
+    size: 40px;
+    margin-top: 0;
   }
 
   .contact-paragraph {
-    align-items: center;
-    margin: 50px 430px 10px 430px;
+    justify-content: center;
+    size: 20px;
+    font-family: "Poppins", sans-serif;
+    width: 580px;
   }
 
   .form-list {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;

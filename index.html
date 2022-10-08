@@ -18,17 +18,22 @@
             <header>
                 <nav class="navbar">
                     <a class="logo" href="">Hamdullah</a>
-                    <img src="images/Union.png" alt="">
+                    <img class="logo-image" src="images/Union.png" alt="">
+                    <div class="menu-bar">
+                        <a class="contact-menu" href="">Contact</a>
+                        <a class="about-menu" href="">About</a>
+                        <a class="portfolio-menu" href="">Portfolio</a>
+                    </div>
                 </nav>
             </header>
 
             
            <!-- The main section  -->
-            <main>
+            <main class="main-class">
                 <section class="hero">
 
-                <h1 class="heading">I’m Hami
-                Glad to see you!</h1>
+                <h1 class="heading">I’m Hami Andar 
+                    Glad to see you!</h1>
 
                 <p class="paragraph">I’m a software developer! 
                 I can help you build a product , 
@@ -55,10 +60,13 @@
             <section class="projects">
          
                 <div class="project-container">
-
+                <section class="project-image">
                     <div class="section1">
-    
+                        <!-- <img src="images/Snapshoot-Portfolio-Disk1.png" alt=""> -->
                     </div>
+                </section>
+                
+                <section class="project-description">
                     <div>
                         <h2>Tonic</h2>
                         <ul class="tonic-title">
@@ -81,19 +89,22 @@
                     <div>
                         <button class="project-button">See Project</button>
                     </div>
-                </div>
+                </section>
 
+                </div>
             </section>
 
             <!-- The feature section  -->
 
             <section class="projects">
-                <div class="project-container">
+                <div class="project-container project-container-2">
                 
+                <section class="project-image">
                     <div class="section2">
 
                     </div>   
-
+                </section>
+                <section class="project-description">
                     <h2>Multiple Post Stories</h2>
                 
                     <ul class="tonic-title">
@@ -115,16 +126,20 @@
                     <div>
                         <button class="project-button">See Project</button>
                     </div>
+                </section>
+
                 </div>
             </section>
 
             <section class="projects">
                 <div class="project-container">
                     
+                <section class="project-image">
                     <div class="section3">
 
                     </div>
-
+                </section>
+                <section class="project-description">
                     <h2>Tonic</h2>
                 
                     <ul class="tonic-title">
@@ -147,16 +162,18 @@
                     <div>
                         <button class="project-button">See Project</button>
                     </div>
+                </section>
                 </div>
             </section>
 
             <section class="projects">
-                <div class="project-container">
-                    
+                <div class="project-container project-container-4">
+                <section class="project-image">    
                     <div class="section4">
 
                     </div>
-
+                </section>
+                <section class="project-description">
                     <h2>Multi-Post Stories</h2>
                 
                     <ul class="tonic-title">
@@ -179,13 +196,14 @@
                     <div>
                         <button class="project-button">See Project</button>
                     </div>
+                </section>
                 </div>
             </section>
 
             <section class="about">
                 <div class="about-container">
-
-                    <h2 class="about-heading">About
+                <section class="about-headings">    
+                    <h2 class="about-title">About
                         Myself
                     </h2>
             
@@ -209,7 +227,8 @@
                     <div>
                         <button class="about-button">Get my resume</button>
                     </div>
-
+                </section>
+                <section class="about-description">
                     <div>
                         <ul class="languages">
                             <li class="language-icon">Languages</li>
@@ -218,27 +237,29 @@
                     </div>
                     <div>
                    
-                    <div>
+                    <section class="language-icons">
+                    <div class="javasct">
                         <ul class="programming-languages">
                             <li class="language-icon"><img src="images/Ellipse0.png" alt=""></li>
                             <li class="language-link">Javascript</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div class="html">
                         <ul class="programming-languages">
                             <li class="language-icon"><img src="images/Ellipse1.png" alt=""></li>
                             <li class="language-link">HTML</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div class="css">
                         <ul class="programming-languages">
                             <li class="language-icon"><img src="images/Ellipse2.png" alt=""></li>
                             <li class="language-link">CSS</li>
                         </ul>
                     </div>
-                  
+                    </section>
+
                     </div>
                         <ul class="about-framework">
                             <li>Framework</li>
@@ -251,6 +272,7 @@
                         </ul>
                         <img class="line-width" src="images/Separator Bottom.png" alt="">
                     </div>
+                </section>
             </section>
 
             <!-- Form Section  -->
@@ -263,7 +285,7 @@
                     that needs coding. I'd love to help with it.</p>
                
                 <form action="https://formspree.io/f/xrgdkowz" method="post">
-                    <ul>
+                    <ul class="form-list">
                         <li><input type="text" name="name" placeholder="Full Name" maxlength="30" required></li>
                         <li><input type="email" name="email" placeholder="Email" required></li>
                         <li><textarea type="text" name="message" id="" cols="30" rows="10" placeholder="Write your Message her" maxlength="500" required></textarea></li>
@@ -271,7 +293,6 @@
                     </ul>                 
                 </form>
                 
-                <img src="images/Shape.png" alt="">
             </section>
         
             <footer></footer>

@@ -53,6 +53,7 @@ main {
   padding: 24px;
   font-size: 40px;
   font-family: Poppins, sans-serif;
+  color: #091e42;
 }
 
 .paragraph {
@@ -60,6 +61,7 @@ main {
   height: 90px;
   width: 330px;
   padding: 24px 24px 0 24px;
+  color: #344563;
 }
 
 .socials {
@@ -153,10 +155,13 @@ ul {
 
 .html-link {
   color: #6070ff;
-  background-color: gainsboro;
-  padding: 3px 15px;
+  background-color: #ebebff;
   margin: 5px 10px 5px 0;
   border-radius: 10px;
+  font-weight: 500px;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 4px 12px;
 }
 
 .project-button {
@@ -177,6 +182,21 @@ ul {
   border-color: #396df2;
   background-color: white;
   border-width: 1px;
+}
+
+.project-button:hover {
+  color: white;
+  background-color: lightblue;
+}
+
+.project-button:active {
+  color: white;
+  background-color: blue;
+}
+
+.project-button:visited {
+  color: white;
+  background-color: green;
 }
 
 .tonic-title {
@@ -209,7 +229,7 @@ ul {
   fill: #ebebff;
 }
 
-.about-heading {
+.about-title {
   text-align: left;
   height: 100px;
   width: 50px;
@@ -399,4 +419,265 @@ textarea {
 .contact-button:hover {
   background-color: #6070ff;
   color: white;
+}
+
+.menu-bar {
+  display: none;
+}
+
+@media only screen and (min-width: 1258px) {
+  body {
+    margin: 0;
+  }
+
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo-image {
+    display: none;
+  }
+
+  .menu-bar {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+  }
+
+  .menu-bar a {
+    transition: transform 1s;
+  }
+
+  .menu-bar a:hover {
+    transform: scale(1.1);
+    color: darkblue;
+  }
+
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 154px 0 155px;
+  }
+
+  .main-class {
+    background-image: none;
+    background-image: url('images/Header\ bg.svg'), url('images/header\ background\ shape-desktop.png');
+    width: 100%;
+    height: 906px;
+  }
+
+  .heading {
+    margin: 190px 260px 0 260px;
+    width: 330px;
+  }
+
+  .paragraph {
+    padding-top: 0;
+    width: 750px;
+    margin: 0 260px;
+  }
+
+  .socials {
+    margin: 0 260px;
+    padding-top: 10px;
+    margin-top: 0;
+  }
+
+  .hero {
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+  .project-container {
+    height: 510px;
+    display: flex;
+    margin: 142px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  .project-container-2 {
+    width: 80%;
+    height: 510px;
+    display: flex;
+    margin: 125px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  .project-container-4 {
+    width: 80%;
+    height: 510px;
+    display: flex;
+    margin: 125px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .project-image {
+    background-image: none;
+    display: flex;
+    width: 542px;
+    height: 472px;
+    flex-direction: row-reverse;
+    margin: 24px;
+  }
+
+  .project-description {
+    margin-top: 48px;
+  }
+
+  .section1 {
+    background-image: url("images/Snapshoot-Portfolio-Disk1.png");
+    width: 542px;
+    height: 472px;
+  }
+
+  .section2 {
+    background-image: url("images/Snapshoot-Portfolio-Disk2.png");
+    width: 542px;
+    height: 472px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .section3 {
+    background-image: url("images/Snapshoot-Portfolio-Disk3.png");
+    width: 542px;
+    height: 472px;
+  }
+
+  .section4 {
+    background-image: url("images/Snapshoot-Portfolio-Disk4.png");
+    width: 542px;
+    height: 472px;
+  }
+
+  .project-button:hover {
+    color: white;
+    background-color: lightblue;
+  }
+
+  .project-button:active {
+    color: white;
+    background-color: blue;
+  }
+
+  .project-button:visited {
+    color: white;
+    background-color: green;
+  }
+
+  .about {
+    width: 100%;
+    height: 750px;
+    background-image: none;
+  }
+
+  .about-container {
+    background-image: url('images/about-myself-background-shape-desktop.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 0;
+    height: 710px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .about-headings {
+    width: 450px;
+    height: 470px;
+    margin: 120px 0 120px 120px;
+  }
+
+  .about-description {
+    width: 650px;
+    height: 470px;
+    margin: 120px 100px 120px 0;
+  }
+
+  .languages {
+    display: flex;
+    gap: 450px;
+  }
+
+  .programming-languages {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: inherit;
+  }
+
+  .language-icons {
+    display: flex;
+  }
+
+  .about-framework {
+    display: flex;
+    gap: 450px;
+  }
+
+  .about-skills {
+    display: flex;
+    gap: 500px;
+  }
+
+  .arrow {
+    margin-right: 10px;
+  }
+
+  .about-button:hover {
+    color: white;
+    background-color: lightblue;
+  }
+
+  .about-button:active {
+    color: white;
+    background-color: blue;
+  }
+
+  .about-button:visited {
+    color: white;
+    background-color: green;
+  }
+
+  .contact-section {
+    width: 100%;
+    height: 750px;
+    background-image: none;
+    background-image: url('images/contact-form-background-shape-desktop.png');
+    background-position: center;
+    background-position-x: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact {
+    size: 40px;
+    margin-top: 0;
+  }
+
+  .contact-paragraph {
+    justify-content: center;
+    size: 20px;
+    font-family: "Poppins", sans-serif;
+    width: 580px;
+  }
+
+  .form-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

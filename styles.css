@@ -680,4 +680,20 @@ textarea {
     flex-direction: column;
     align-items: center;
   }
+
+  .section1:hover {
+    transform: scale(1.15);
+  }
+
+  .section2:hover {
+    transform: scale(1.15);
+  }
+
+  .section3:hover {
+    transform: scale(1.15);
+  }
+
+  .section4:hover {
+    transform: scale(1.15);
+  }
 }

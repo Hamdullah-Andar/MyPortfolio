@@ -700,4 +700,8 @@ textarea {
   .logo:hover {
     transform: rotate(45deg);
   }
+
+  .heading:hover {
+    transform: translate(10px, 10px);
+  }
 }

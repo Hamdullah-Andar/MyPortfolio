@@ -447,6 +447,7 @@ textarea {
   }
 
   .menu-bar a {
+    text-decoration: none;
     transition: transform 1s;
   }
 

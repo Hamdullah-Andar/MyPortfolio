@@ -1,12 +1,14 @@
 ### Portfolio Desktop Version
 
-    This is the complete potfolio project with Contact form
+    This is the complete potfolio project with Contact form for accessibility version
     
 ### Built With
 
     HTML
     CSS
     Linters
+    Grid
+    Flex
 
 ### Live Demo (if available)
 

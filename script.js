@@ -16,8 +16,7 @@ closeBtn.addEventListener('click', () => {
 
 // Add event listener to the mobile nav-links
 MobileLinks.addEventListener('click', (e) => {
-  if(e.target.matches('a')) {
+  if (e.target.matches('a')) {
     mobileMenuModal.classList.toggle('close');
   }
 });
-

@@ -6,7 +6,9 @@ body {
 }
 
 .container {
+  position: relative;
   display: flex;
+  width: 100%;
   background-color: #dcdcdc;
   flex-direction: column;
   align-items: center;
@@ -32,19 +34,39 @@ body {
   width: 317px;
 }
 
-/* .menu-image {
+.desktop.menu-bar {
   display: none;
 }
 
-nav {
-  display: block;
+.mobile-modal {
+  box-sizing: border-box;
   position: fixed;
-  width: 100%;
-  background-color: #091e42;
-  color: #396df2;
+  z-index: 10;
+  background-color: #7f8cff;
+  width: 375px;
+  height: 100%;
   display: flex;
+  flex-direction: column;
+  padding-inline: 24px;
+  padding-block: 16px;
+}
 
-} */
+.mobile a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.close-btn {
+  width: 12px;
+  align-self: flex-end;
+}
+
+.mobile-modal.close {
+  display: none;
+}
 
 main {
   display: flex;
@@ -435,70 +457,13 @@ textarea {
   color: white;
 }
 
-.menu-bar {
-  display: none;
-}
-
-nav.menu-image {
-  display: block;
-}
-
-.menu-bar {
-  position: fixed;
-  z-index: 99;
-  height: 100vh;
-  width: 100vh;
-  left: 0;
-  top: 0;
-  background-color: #6070ff;
-  padding: 1em;
-
-
-  li {
-    a {
-      
-    }
-  }
-  /* width: 100%; */
-  /* height: 100%; */
-  /* margin: 0; */
-  /* padding: 0; */
-}
-
-/* .contact-menu {
-  color: white;
-  text-decoration: none;
-  font-wieght: 20px;
-  font-size: 25px;
-  top: 8px;
-  height: 24px;
-}
-
-.about-menu {  
-  color: white;
-  text-decoration: none;
-  font-wieght: 20px;
-  font-size: 25px;
-  top: 8px;
-  height: 24px;
-}
-
-.portfolio-menu {
-  color: white;
-  text-decoration: none;
-  font-wieght: 20px;
-  font-size: 25px;
-  top: 8px;
-  height: 24px;
-} */
-
-.menu-btn {
-
-}
-
 @media only screen and (min-width: 1258px) {
   body {
     margin: 0;
+  }
+
+  .desktop.menu-bar {
+    display: flex;
   }
 
   header {

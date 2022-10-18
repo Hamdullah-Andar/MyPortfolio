@@ -465,10 +465,10 @@ nav.menu-image {
   /* padding: 0; */
 }
 
-.contact-menu {
+/* .contact-menu {
   color: white;
   text-decoration: none;
-  /* font-wieght: 20px; */
+  font-wieght: 20px;
   font-size: 25px;
   top: 8px;
   height: 24px;
@@ -477,7 +477,7 @@ nav.menu-image {
 .about-menu {  
   color: white;
   text-decoration: none;
-  /* font-wieght: 20px; */
+  font-wieght: 20px;
   font-size: 25px;
   top: 8px;
   height: 24px;
@@ -486,11 +486,11 @@ nav.menu-image {
 .portfolio-menu {
   color: white;
   text-decoration: none;
-  /* font-wieght: 20px; */
+  font-wieght: 20px;
   font-size: 25px;
   top: 8px;
   height: 24px;
-}
+} */
 
 .menu-btn {
 

@@ -1,5 +1,5 @@
 const humburgerBtn = document.getElementById('humburger-btn')
-    menubar = document.querySelector('ul')
+  menubar = document.querySelector('ul')
   menuExit = document.getElementById('menu-exit');
 
   humburgerBtn.addEventListener('click', () => {

@@ -13,24 +13,35 @@
 
         <div class="container">   
 
-            <!-- the header section   -->
+            <nav class="mobile-modal close blure">
+                <img id="menu-exit" class="close-btn" src="images/Icon.png" alt="">
+              
+                <ul id="mobile-links" class="mobile menu-bar">
+                    <li> <a href="#contact">Contact</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                </ul>
 
+            </nav>
+
+            <!-- the header section   -->
+            
             <header>
                 <nav class="navbar">
                     <a class="logo" href="/">Hamdullah</a>
-                    <img class="menu-image" src="images/menu.png" alt="menu-icon">
+                    <img id="humburger-btn" class="menu-image" src="images/menu.png" alt="menu-icon">
  
-                    <div class="menu-bar">
-                        <a class="contact-menu" href="#">Contact</a>
-                        <a class="about-menu" href="#">About</a>
-                        <a class="portfolio-menu" href="#">Portfolio</a>
-                    </div>
-            
+                    <ul class="desktop menu-bar">
+                        <li> <a href="#contact">Contact</a></li>
+                        <li> <a href="#about">About</a></li>
+                        <li> <a href="#portfolio">Portfolio</a></li>
+                    </ul>
+
                 </nav>
             </header>
            
            <!-- The main section  -->
-            <main class="main-class">
+            <main class="main-class blur-effect">
                 <section class="hero">
 
                 <h1 class="heading">I’m Hami Andar 
@@ -57,7 +68,7 @@
             </main>
             
             <!-- the project section  -->
-            
+            <div id="portfolio">
             <section class="projects">
          
                 <div class="project-container">
@@ -200,8 +211,8 @@
                 </section>
                 </div>
             </section>
-
-            <section class="about">
+        </div>
+            <section id="about" class="about">
                 <div class="about-container">
                 <section class="about-headings">    
                     <h2 class="about-title">About
@@ -278,7 +289,7 @@
 
             <!-- Form Section  -->
 
-            <section class="contact-section">
+            <section id="contact" class="contact-section">
                 <h2 class="contact">Contact me</h2>
                 
                 <p class="contact-paragraph">If you have any application you are intersted in 
@@ -297,5 +308,7 @@
 
             <footer></footer>
         </div> 
+
+        <script src="script.js"></script>
     </body>
     </html>

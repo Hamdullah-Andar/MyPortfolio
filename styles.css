@@ -3,10 +3,13 @@
 body {
   font-family: "Poppins", sans-serif;
   max-width: 100vw;
+  margin: 0;
 }
 
 .container {
+  position: relative;
   display: flex;
+  width: 100%;
   background-color: #dcdcdc;
   flex-direction: column;
   align-items: center;
@@ -30,6 +33,41 @@ body {
   background-color: white;
   padding: 29px 29px 10px 29px;
   width: 317px;
+}
+
+.desktop.menu-bar {
+  display: none;
+}
+
+.mobile-modal {
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 1;
+  background-color: #7f8cff;
+  width: 375px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-inline: 24px;
+  padding-block: 16px;
+  opacity: 0.9;
+}
+
+.mobile a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.close-btn {
+  width: 12px;
+  align-self: flex-end;
+}
+
+.mobile-modal.close {
+  display: none;
 }
 
 main {
@@ -421,13 +459,13 @@ textarea {
   color: white;
 }
 
-.menu-bar {
-  display: none;
-}
-
 @media only screen and (min-width: 1258px) {
   body {
     margin: 0;
+  }
+
+  .desktop.menu-bar {
+    display: flex;
   }
 
   header {

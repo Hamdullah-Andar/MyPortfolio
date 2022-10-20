@@ -1,6 +1,6 @@
 // create variables
-const mobileMenuModal = document.querySelector('.mobile-modal');
-const closeBtn = document.querySelector('.close-btn');
+const mobileMenuModal = document.querySelector('.mobile-modal-menu');
+const closeBtn = document.querySelector('#close-btn');
 const menuBtn = document.querySelector('#humburger-btn');
 const MobileLinks = document.querySelector('#mobile-links');
 
@@ -11,6 +11,7 @@ menuBtn.addEventListener('click', () => {
 
 // Add event listener to the close button
 closeBtn.addEventListener('click', () => {
+  console.log("clicked")
   mobileMenuModal.classList.toggle('close');
 });
 

@@ -5,310 +5,39 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=, initial-scale=1.0">
         <title>Hami Portfolio</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-
         <!-- the main container  -->
+        <div class="container">
 
-        <div class="container">   
-
-            <nav class="mobile-modal close blure">
-                <img id="menu-exit" class="close-btn" src="images/Icon.png" alt="">
-              
-                <ul id="mobile-links" class="mobile menu-bar">
+            <!--Mobile menu-->
+            <nav class="mobile-modal-menu close">
+                <img id="close-btn" src="images/Icon.png" alt="close icon">
+                <ul id="mobile-links" class="mobile nav-links">
                     <li> <a href="#contact">Contact</a></li>
                     <li> <a href="#about">About</a></li>
                     <li> <a href="#portfolio">Portfolio</a></li>
                 </ul>
-
             </nav>
 
-            <!-- the header section   -->
-            
+            <!-- Main Navigation-->
             <header>
-                <nav class="navbar">
-                    <a class="logo" href="/">Hamdullah</a>
-                    <img id="humburger-btn" class="menu-image" src="images/menu.png" alt="menu-icon">
- 
-                    <ul class="desktop menu-bar">
+                <a class="logo" href="/">Hamdullah</a>
+                <nav>
+                    <ul class="desktop nav-links">
                         <li> <a href="#contact">Contact</a></li>
                         <li> <a href="#about">About</a></li>
                         <li> <a href="#portfolio">Portfolio</a></li>
                     </ul>
-
+                    <img id="humburger-btn" src="images/menu.png" alt="menu icon">
                 </nav>
             </header>
-           
-           <!-- The main section  -->
-            <main class="main-class blur-effect">
-                <section class="hero">
-
-                <h1 class="heading">I’m Hami Andar 
-                    Glad to see you!</h1>
-
-                <p class="paragraph">I’m a software developer! 
-                I can help you build a product , 
-                feature or website Look through some of my work and experience! 
-                If you like what you see and have a project you need coded, 
-                don’t hestiate to contact me.</p>
-                    
-                <div class="socials">    
-                    <h3 class="connect">LET’S CONNECT</h3>
-                    <ul class="socialmedia">
-                        <li> <a href="https://twitter.com"><img src="images/twitter.png" alt="twitter-icon"></a></li>
-                        <li><a href="https://linkedin.com"><img src="images/Linkedinicon.png" alt="linkedin-icon"></a></li>
-                        <li><a href="https://mail.google.com"><img src="images/mail.png" alt="mail-icon"></a></li>
-                        <li><a href="https://github.com/"><img src="images/github.png" alt="github-icon"></a></li>
-                        <li><a href="https://vectorstock.com/"><img src="images/peace.png" alt="vector-icon"></a></li>
-                    </ul>  
-                </div>
-                </section>
-          
-            </main>
-            
-            <!-- the project section  -->
-            <div id="portfolio">
-            <section class="projects">
-         
-                <div class="project-container">
-                <section class="project-image">
-                    <div class="section1">
-                        <!-- <img src="images/Snapshoot-Portfolio-Disk1.png" alt=""> -->
-                    </div>
-                </section>
-                
-                <section class="project-description">
-                    <div>
-                        <h2>Tonic</h2>
-                        <ul class="tonic-title">
-                            <li class="tonic-item">CONOPY <img src="images/Counter.png" alt="conopy"></li>
-                            <li class="tonic-item">Back End Dev <img src="images/Counter.png" alt="back-end-dev"></li>
-                            <li class="tonic-item">2015 </li>
-                        </ul>
-                    </div>
-                 
-                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                   
-                    <div>
-                        <ul class="skills">
-                            <li  class="html-link">html</li>  
-                            <li  class="html-link">css</li>
-                            <li  class="html-link">javascript</li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <button class="project-button">See Project</button>
-                    </div>
-                </section>
-
-                </div>
-            </section>
-
-            <!-- The feature section  -->
-
-            <section class="projects">
-                <div class="project-container project-container-2">
-                
-                <section class="project-image">
-                    <div class="section2">
-
-                    </div>   
-                </section>
-                <section class="project-description">
-                    <h2>Multiple Post Stories</h2>
-                
-                    <ul class="tonic-title">
-                        <li class="tonic-item">CONOPY <img src="images/Counter.png" alt="conopy"></li>
-                        <li class="tonic-item">Back End Dev <img src="images/Counter.png" alt="back-end-dev"></li>
-                        <li class="tonic-item">2015 </li>
-                    </ul>
-
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                
-                    <div>
-                        <ul class="skills">
-                            <li  class="html-link">html</li>  
-                            <li  class="html-link">css</li>
-                            <li  class="html-link">javascript</li>
-                        </ul>
-                    </div>
-        
-                    <div>
-                        <button class="project-button">See Project</button>
-                    </div>
-                </section>
-
-                </div>
-            </section>
-
-            <section class="projects">
-                <div class="project-container">
-                    
-                <section class="project-image">
-                    <div class="section3">
-
-                    </div>
-                </section>
-                <section class="project-description">
-                    <h2>Tonic</h2>
-                
-                    <ul class="tonic-title">
-                        <li class="tonic-item">CONOPY <img src="images/Counter.png" alt="conopy"></li>
-                        <li class="tonic-item">Back End Dev <img src="images/Counter.png" alt="back-end-dev"></li>
-                        <li class="tonic-item">2015 </li>
-                    </ul>
-
-                    
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                
-                    <div>
-                        <ul class="skills">
-                            <li  class="html-link">html</li>  
-                            <li  class="html-link">css</li>
-                            <li  class="html-link">javascript</li>
-                        </ul>
-                    </div>
-        
-                    <div>
-                        <button class="project-button">See Project</button>
-                    </div>
-                </section>
-                </div>
-            </section>
-
-            <section class="projects">
-                <div class="project-container project-container-4">
-                <section class="project-image">    
-                    <div class="section4">
-
-                    </div>
-                </section>
-                <section class="project-description">
-                    <h2>Multi-Post Stories</h2>
-                
-                    <ul class="tonic-title">
-                        <li class="tonic-item">CONOPY <img src="images/Counter.png" alt="conopy"></li>
-                        <li class="tonic-item">Back End Dev <img src="images/Counter.png" alt="back-end-dev"></li>
-                        <li class="tonic-item">2015 </li>
-                    </ul>
-
-                    
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                
-                    <div>
-                        <ul class="skills">
-                            <li  class="html-link">html</li>  
-                            <li  class="html-link">css</li>
-                            <li  class="html-link">javascript</li>
-                        </ul>
-                    </div>
-        
-                    <div>
-                        <button class="project-button">See Project</button>
-                    </div>
-                </section>
-                </div>
-            </section>
-        </div>
-            <section id="about" class="about">
-                <div class="about-container">
-                <section class="about-headings">    
-                    <h2 class="about-title">About
-                        Myself
-                    </h2>
-            
-                    <p class="about-paragraph">Hello I’m a software developer! I can help you build a product , 
-                        feature or website Look through some of my work and experience! 
-                        If you like what you see and have a project you need coded, 
-                        don’t hestiate to contact me.
-                    </p>
-            
-                    <div class="about-socials">   
-                        <h3 class="about-connect">LET’S CONNECT</h3>
-                            <ul class="about-socialmedia">
-                                <li><img src="images/twitter.png" alt="twitter-icon"></li>
-                                <li><img src="images/Linkedinicon.png" alt="linkedin-icon"></li>
-                                <li><img src="images/mail.png" alt="mail-icon"></li>
-                                <li><img src="images/github.png" alt="github-icon"></li>
-                                <li><img src="images/peace.png" alt="vector-icon"></li>
-                            </ul>  
-                    </div>
-
-                    <div>
-                        <button class="about-button">Get my resume</button>
-                    </div>
-                </section>
-                <section class="about-description">
-                    <div>
-                        <ul class="languages">
-                            <li class="language-icon">Languages</li>
-                            <li><img class="flexend" src="images/Vector.png" alt="vector-icon"></li>
-                        </ul>
-                    </div>
-                    <div>
-                   
-                    <section class="language-icons">
-                    <div class="javasct">
-                        <ul class="programming-languages">
-                            <li class="language-icon"><img src="images/Ellipse0.png" alt="ellipse"></li>
-                            <li class="language-link">Javascript</li>
-                        </ul>
-                    </div>
-
-                    <div class="html">
-                        <ul class="programming-languages">
-                            <li class="language-icon"><img src="images/Ellipse1.png" alt="ellipse"></li>
-                            <li class="language-link">HTML</li>
-                        </ul>
-                    </div>
-
-                    <div class="css">
-                        <ul class="programming-languages">
-                            <li class="language-icon"><img src="images/Ellipse2.png" alt=""></li>
-                            <li class="language-link">CSS</li>
-                        </ul>
-                    </div>
-                    </section>
-
-                    </div>
-                        <ul class="about-framework">
-                            <li>Framework</li>
-                            <li><img src="images/larger.png" alt="larger-symbol"></li>
-                        </ul>
-                        <img class="line-width" src="images/Separator Bottom.png" alt="seperator-symbol">
-                        <ul class="about-skills">
-                            <li>Skills</li>
-                            <li><img src="images/larger.png" alt="larger-symbol"></li>
-                        </ul>
-                        <img class="line-width" src="images/Separator Bottom.png" alt="seperator-symbol">
-                    </div>
-                </section>
-            </section>
-
-            <!-- Form Section  -->
-
-            <section id="contact" class="contact-section">
-                <h2 class="contact">Contact me</h2>
-                
-                <p class="contact-paragraph">If you have any application you are intersted in 
-                    developing, a feature that you need to built or a project 
-                    that needs coding. I'd love to help with it.</p>
-        
-                <form action="https://formspree.io/f/xrgdkowz" method="post">
-                    <ul class="form-list">
-                        <li><input type="text" name="name" placeholder="Full Name" maxlength="30" required></li>
-                        <li><input type="email" name="email" placeholder="Email" required></li>
-                        <li><textarea type="text" name="message" id="" cols="30" rows="10" placeholder="Write your Message her" maxlength="500" required></textarea></li>
-                        <li><button type="submit" class="contact-button">Get In Touch</button></li>
-                    </ul>                 
-                </form>    
-            </section>
-
+            <main></main>
             <footer></footer>
-        </div> 
-
-        <script src="script.js"></script>
+        </div>
+        <script src="js/script.js"></script>
     </body>
     </html>

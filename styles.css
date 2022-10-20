@@ -42,7 +42,7 @@ body {
 .mobile-modal {
   box-sizing: border-box;
   position: fixed;
-  z-index: 10;
+  z-index: 1;
   background-color: #7f8cff;
   width: 375px;
   height: 100%;

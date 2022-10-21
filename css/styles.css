@@ -15,6 +15,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Poppins, sans-serif;
+  background-color: #e5e5e5;
 }
 
 .container {
@@ -87,6 +88,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-inline: var(--header-padding);
+  background-color: #fff;
 }
 
 .desktop {
@@ -107,6 +109,88 @@ header {
   width: 18px;
   height: auto;
   padding-block: 14px;
+}
+
+/* Hero styling
+------------------------------------ */
+#hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 12px;
+  padding: 114px 24px;
+  background-image: url("../images/header-shapes mobile@2x.png");
+}
+
+#hero::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: calc(100% + 22px);
+  z-index: -1;
+  border-bottom-left-radius: 80px;
+}
+
+.hero-heading {
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.hero-subheading {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.social-heading {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.social-links {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  column-gap: 20px;
+}
+
+/* Portfolio styling
+------------------------------------ */
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 88px;
+  padding: 114px 24px;
+}
+
+.portfolio-card {
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+/* about styling
+------------------------------------ */
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 12px;
+  padding: 114px 24px;
+  background-color: #fff;
 }
 
 @media only screen and (min-width: 768px) {
@@ -133,4 +217,7 @@ header {
   .mobile-modal-menu {
     display: none;
   }
+
+  /* Hero styling
+  ------------------------------------ */
 }
